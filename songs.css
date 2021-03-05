@@ -1,0 +1,85 @@
+#ds {
+  background: linear-gradient(rgba(151, 4, 139, 0.8) 0%, rgba(45,154,253,0) 50%);
+  background-color: #212529;
+  background-repeat: no-repeat;
+}
+#an {
+  background: linear-gradient(rgba(255, 196, 86, 0.8) 0%, rgba(45,154,253,0) 50%);
+  background-color: #212529;
+  background-repeat: no-repeat;
+}
+#tw {
+  background: linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(45,154,253,0) 50%);
+  background-color: #212529;
+  background-repeat: no-repeat;
+}
+.atitle {
+  margin-top: 5%;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#darkside {
+  margin-top: 50px;
+  width: 25%;
+  border: 2px solid white;
+  box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.2);
+}
+.description {
+  font-style: italic;
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lyrics {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.song {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.stitle {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  text-align: center;
+  color: rgb(197, 197, 197);
+  font-size: 45px;
+}
+.spoken {
+  color: rgb(216, 215, 215);
+  font-style: oblique;
+}
+#ref {
+  font-size: 15px;
+  color: #7a7f85;
+  text-align: center;
+}
+.description p {
+  text-align: right;
+  margin-right: 3%;
+}
+iframe {
+  margin-top: 5%;
+  overflow: hidden;
+  width: 560px; 
+  height: 315px;
+}

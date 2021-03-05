@@ -1,0 +1,108 @@
+body {
+  color: white;
+  margin: 0 auto;
+  background-color: #212529;
+  height: 100vh;
+  font-family: monospace;
+}
+nav a,
+nav .dropdown,
+nav a:visited {
+  color: #dee2e6;
+  text-decoration: none;
+  font-size: 20px;
+  height: 100%;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.vl {
+  border-left: solid #bebebe;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav {
+  top: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 65px;
+  width: 80%;
+  background: rgba(87, 86, 86, 0.5);
+}
+nav a:hover,
+nav .dropdown:hover,
+.backbtn:hover {
+  background-color: #7a7f85;
+}
+.dropdown {
+  min-width: 100px;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  background-color:  #43484d;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  width: auto;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+}
+.dropdown-content a:hover {
+  background-color: #7a7f85
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#dsotm:hover {
+  background-image: url('./resources/darkside.png');
+  background-size: 100%;
+  background-position: 0px -70px;
+  text-shadow: 1px 0 10px #000000,1px 0 10px #212529,1px 0 10px #212529;
+  font-weight: bold;
+}
+#twall:hover {
+  background-image: url('./resources/thewall.png');
+  background-position: 0px 0px;
+  background-size: 200%;
+  font-weight: bold;
+  color: red;
+  background-attachment: inherit;
+}
+#anim:hover {
+  background-image: url('./resources/animals.png');
+  background-size: 100%;
+  background-position: 0px -65px;
+  text-shadow: 1px 0 10px #212529,1px 0 10px #212529,1px 0 10px #212529;
+  font-weight: bold;
+}
+.backbtn,
+.backbtn a:visited,
+.backbtn a {
+  width: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background: rgba(87, 86, 86, 0.5);
+  color: rgb(189, 189, 189);
+  font-size: 20px;
+}
+footer {
+  height: 3%;
+  background-color: #343a40;
+  padding: 3px;
+  text-align: center;
+  color: rgb(184, 184, 184);
+  bottom: 0;
+}
