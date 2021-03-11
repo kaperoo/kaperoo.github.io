@@ -13,7 +13,7 @@ var score = document.getElementById("title");
 var loop = true;
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    btns.innerHTML = "onMobile";
+    btns.innerHTML = "<button class='btns' onclick='left()'>&#9668;</button><button class='btns' onclick='space()'>SPACE</button><button class='btns' onclick='right()'>&#9658;</button>";
 }
 
 //snake class
@@ -156,6 +156,86 @@ document.addEventListener("keydown",function(e){
         }
     }
 });
+
+//Stering on mobile
+function space(){
+    posx = 0;
+    posy = 400;
+    dirx = 1;
+    diry = 0;
+    gameon=true;
+    apple = new Apple;
+    apple.newPos(getRandomInt(20,30)*40,400);
+    snake = [new Snek()];
+    clearTimeout(inter);
+    inter = setInterval(move,200);
+}
+
+function left(){
+    if(gameon){
+        if(dirx==1 && diry==0){
+            dirx=0;
+            diry=-1;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==0 && diry==-1){
+            dirx=-1;
+            diry=0;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==-1 && diry==0){
+            dirx=0;
+            diry=1;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==0 && diry==1){
+            dirx=1;
+            diry=0;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+    }
+}
+
+function right(){
+    if(gameon){
+        if(dirx==1 && diry==0){
+            dirx=0;
+            diry=1;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==0 && diry==1){
+            dirx=-1;
+            diry=0;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==-1 && diry==0){
+            dirx=0;
+            diry=-1;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+        else if(dirx==0 && diry==-1){
+            dirx=1;
+            diry=0;
+            clearTimeout(inter);
+            move();
+            inter = setInterval(move,200);
+        }
+    }
+}
 
 //Timed move function
 function move(){
