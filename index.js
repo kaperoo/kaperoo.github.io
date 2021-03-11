@@ -55,7 +55,6 @@ function getRandomInt(min, max){
 
 function gameOver(result){
     ctx.clearRect(0, 0, cnv.width, cnv.height);
-    snake.length=0;
     clearTimeout(inter);
     for(i=0;i<500;i++){
         printText("GAME OVER",100,"rgb(0, 64, 64)",i,1.5*i);
@@ -65,11 +64,11 @@ function gameOver(result){
     printText("Your score: " + result,40,"tomato",40,0);
     score.innerHTML = "SNEK";
     gameon=false;
+    snake.length=0;
 }
 
 function youWon(result){
     ctx.clearRect(0, 0, cnv.width, cnv.height);
-    snake.length=0;
     clearTimeout(inter);
     for(i=0;i<500;i++){
         printText("You Won!",100,"rgb(0, 64, 64)",i,1.5*i);
@@ -79,6 +78,7 @@ function youWon(result){
     printText("Your score: " + result,40,"gold",40,0);
     score.innerHTML = "SNEK";
     gameon=false;
+    snake.length=0;
 }
 
 //used to print messages
