@@ -2,6 +2,10 @@ body{
     background-color: rgb(46, 46, 46);
     font-family: monospace;
 }
+.title{
+    margin-left: auto;
+    margin-right: auto;
+}
 h1{
     color: white;
     font-weight: bold;
@@ -13,10 +17,15 @@ h1{
 hr{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 1600px;
+    max-width: 1600px;
+    width: 90%;
 }
 #snekCanvas{
     display: block;
+    max-width: 1600px;
+    max-height: 800px;
+    width: 90%;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     border: 2px solid white;
