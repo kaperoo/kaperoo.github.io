@@ -1,6 +1,6 @@
 var cnv = document.getElementById("snekCanvas");
 var ctx = cnv.getContext("2d");
-var btns;
+var btns = document.getElementById("buttons");;
 var posx;
 var posy;
 var dirx;
@@ -12,8 +12,7 @@ var apple;
 var score = document.getElementById("title");
 var loop = true;
 
-if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    btns = document.getElementsByClassName("buttons");
+if(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     btns.innerHTML = "onMobile";
 }
 
