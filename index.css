@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: monospace;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1600px;
+}
+#snekCanvas{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    background-color: teal;
+}
