@@ -12,7 +12,7 @@ var apple;
 var score = document.getElementById("title");
 var loop = true;
 
-if(/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     btns.innerHTML = "onMobile";
 }
 
