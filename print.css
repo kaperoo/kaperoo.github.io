@@ -1,0 +1,30 @@
+#logo, #logomem{
+    filter: invert(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav, .backbtn, iframe{
+    display: none;
+}
+td, td a, #darkside{
+    box-shadow: none;
+}
+.container p, 
+.container blockquote,
+p,
+#tabhead,
+.description,
+.stitle,
+.atitle{
+    color: black;
+}
+blockquote{
+    margin: auto;
+}
+.description{
+    width: 80%;
+}
+.name, .desc{
+    font-size: 20px;
+}
