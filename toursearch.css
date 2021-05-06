@@ -33,6 +33,7 @@ button{
   margin: auto;
 }
 .place{
+  display: none;
   padding: 5px;
   width: 60%;
   margin-left: auto;
@@ -41,7 +42,13 @@ button{
   margin-bottom: 10px;
   background-color: rgba(75, 75, 75, 0.603);
 }
+#showMore{
+  display: none;
+  margin-bottom: 3%;
+}
 #shows{
+  margin-top: 5%;
+  margin-bottom: 2%;
   margin-left: 10%;
   margin-right: 10%;
 }

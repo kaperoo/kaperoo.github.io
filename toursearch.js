@@ -4,6 +4,10 @@ var doc = document.getElementById("shows");
 var count = 0;
 
 function findTour(){
+    $(document).ready(function() {
+        $("#findBtn").slideUp();
+        $("#showMore").fadeIn();
+    });
     count += 5;
     navigator.geolocation.getCurrentPosition(showPosition);
 }
@@ -17,28 +21,38 @@ function showPosition(position){
     .then(data => {
 
         var distance = [];
-        doc.innerHTML = "";
 
         for(i=0;i<data["places"].length;i++){
             distance.push(distanceInKm(lat,long,data["places"][i]["lat"],data["places"][i]["long"]));
         }
 
         var distanceSorted = [...distance];
-        distanceSorted.sort();
+        distanceSorted.sort(function(a, b){return a - b});
+        console.log(distanceSorted);
 
         if(count>distance.length){
             count = distance.length;
         }
+        
+        $(document).ready(function() {
+            for(i=0;i<count;i++){
+                for(j=0;j<distance.length;j++){
+                    if(distance[j]==distanceSorted[i]){
 
-        for(i=0;i<count;i++){
-            for(j=0;j<distance.length;j++){
-                if(distance[j]==distanceSorted[i]){
-                    doc.innerHTML += "<div class='place'><span id='name'>" + data["places"][j]["name"] + ": </span>" + "<br><span id='loc'>" + data["places"][j]["place"] + 
-                    " </span><br>"+ "<span id='date'>" + data["places"][j]["date"] + 
-                    " </span>" + "<span id='kms'>" + Math.round(distance[j]) + "km away from you.</span>" + "</div>";
+                            $("#shows").append("<div class='place' id='place"+i+"'><span id='name'>" + data["places"][j]["name"] + ": </span>" + "<br><span id='loc'>" + data["places"][j]["place"].toUpperCase() + 
+                            " </span><br>"+ "<span id='date'>" + data["places"][j]["date"] + 
+                            " </span>" + "<span id='kms'>" + Math.round(distance[j]) + "km away from you.</span>" + "</div>");
+                        
+                    }
                 }
             }
-        }
+            for(i=count-5;i<count;i++){
+                $("#place"+i).fadeIn();
+            }
+            if(count==data["places"].length){
+                $("#showMore").fadeOut();
+            }
+        });
     });
 }
 
