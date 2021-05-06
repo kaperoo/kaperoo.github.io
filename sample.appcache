@@ -1,0 +1,6 @@
+CACHE MANIFEST
+ /style.css
+ /main.js
+
+ FALLBACK:
+ /html/ /offline.html

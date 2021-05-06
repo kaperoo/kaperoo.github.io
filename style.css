@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: white;
   margin: 0 auto;
@@ -88,19 +91,6 @@ nav .dropdown:hover,
   text-shadow: 1px 0 10px #212529,1px 0 10px #212529,1px 0 10px #212529;
   font-weight: bold;
 }
-.backbtn,
-.backbtn a:visited,
-.backbtn a {
-  width: 15%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2%;
-  text-decoration: none;
-  background: rgba(87, 86, 86, 0.5);
-  color: rgb(189, 189, 189);
-  font-size: 20px;
-}
 footer {
   margin-top: auto;
   height: 3%;
@@ -110,8 +100,144 @@ footer {
   color: rgb(184, 184, 184);
   bottom: 0;
 }
-@media only screen and (max-width: 600px) {
-  nav{
+@media only screen and (min-width: 768px) {
+  #logo {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .menu{
     display: none;
+  }
+  #logomem {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    width: 15%;
+  }
+  .backbtn,
+  .backbtn a:visited,
+  .backbtn a {
+    width: 15%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-decoration: none;
+    background: rgba(87, 86, 86, 0.5);
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .desktop{
+    display: none;
+  }
+  .burger {
+    width: 20vw;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  .menu {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    left: -80vw;
+    transition-duration: 0.5s;
+    z-index: 2;
+  }
+  .mobile{
+    background-color: #131516;
+    height: 100%;
+    width: 80vw;
+  }
+  ul {
+    list-style: none;
+  }
+  nav ul li a:visited {
+    color: #ffffff;
+  }
+  nav ul li {
+    margin-top: 30px;
+  }
+  a, li p {
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+  li p{
+    color: rgb(133, 133, 133);
+  }
+  .burger_box {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+  }
+  .burger_box_content {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .burger_box_content::before,
+  .burger_box_content::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition-duration: 0.3s;
+  }
+  .burger_box_content::before {
+    top: -13px;
+  }
+  .burger_box_content::after {
+    top: 13px;
+  }
+  .burger--active .burger_box_content {
+    background-color: transparent;
+  }
+  .burger--active .burger_box_content::before {
+    transform: translateY(13px) rotate(45deg);
+  }
+  .burger--active .burger_box_content::after {
+    transform: translateY(-13px) rotate(-45deg);
+  }
+  .backbtn,
+  .backbtn a:visited,
+  .backbtn a {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-decoration: none;
+    background: rgba(87, 86, 86, 0.5);
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+  }
+  #logomem, #logo{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
   }
 }

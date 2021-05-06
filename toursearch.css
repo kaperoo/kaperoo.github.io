@@ -3,12 +3,6 @@ body {
   background-color: #212529;
   background-repeat: no-repeat;
 }
-#logomem {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 10%;
-  width: 15%;
-}
 #findBtn{
   margin-left: 10%;
   margin-right: 10%;
@@ -36,7 +30,6 @@ button{
   box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
   display: none;
   padding: 5px;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -71,4 +64,12 @@ button{
   display: flex;
   font-size: 15px;
   float: right;
+}
+@media only screen and (min-width: 768px) {
+  .place{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  
 }

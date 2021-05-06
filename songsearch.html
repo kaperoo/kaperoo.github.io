@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Song search">
 	<meta name="keywords" content="Pink Floyd, Songs">
 	<meta name="author" content="Kacper Roemer, sc20kr">
@@ -19,7 +20,7 @@
     </a>
     
     <!--Navigation Bar-->
-    <nav>
+    <nav class="desktop">
         <a href="index.html"><p>Main Page</p></a>
         <div class="vl"></div>
         <a href="members.html"><p>Band Members</p></a>
@@ -42,6 +43,46 @@
         </div>
     </nav>
 
+    <div class="menu">
+        <button class="burger" onclick="menuDisplay()">
+            <span class="burger_box">
+                <span class="burger_box_content"></span>
+            </span>
+        </button>
+        <nav class="mobile">
+            <ul>
+                <li>
+                    <a href="index.html">Main Page</a>
+                </li>
+                <li>
+                    <a href="members.html">Band Members</a>
+                </li>
+                <li>
+                    <p>Discography</p>
+                </li>
+                <ul>
+                    <li>
+                        <a href="darkside.html">Darkside of the Moon</a>
+                    </li>
+                    <li>
+                        <a href="thewall.html">The Wall</a>
+                    </li>
+                    <li>
+                        <a href="animals.html">Animals</a>
+                    </li>
+                </ul>
+                <li>
+                    <p>Other</p>
+                </li>
+                <ul>
+                    <li>
+                        <a href="toursearch.html">Find Show</a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+
     <div id="control">
         <input type="text" id="ssong" placeholder="Enter the song title">
         <input type="button" id="songBtn" value="Find" onclick="findSong()">
@@ -51,5 +92,6 @@
 
     <footer>Kacper Roemer (sc20kr)</footer>
     <script src="songsearch.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>

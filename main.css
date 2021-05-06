@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
 }
 .container {
-  width: 80%;
   margin: 0 auto;
   font-size: 17px;
   margin-top: 5%;
@@ -18,56 +17,64 @@ body {
   text-align: right;
   margin-right: 3%;
 }
-#logo {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
 .tablepic {
   width: 100%;
 }
-table {
-  width: 80%;
-  margin-top: 5%;
+.grid-gallery{
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  font-size: 15px;
-  border-spacing: 20px;
+  width: 60%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns:  repeat(auto-fit, minmax(240px, 1fr));
 }
-td,
-td a,
-td a:visited {
+.grid-gallery div{
+  background-color: rgba(87, 86, 86, 0.5);
+  height: 100%;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.grid-gallery div a:visited {
   text-decoration: none;
   color: white;
   background: rgba(87, 86, 86, 0.5);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-td:hover {
+.grid-gallery div:hover {
   background: #7a7f85;
   box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.411);
 }
 td:hover .zoom {
   display: block;
 }
-table p {
-  max-height: 35px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  overflow: hidden;
+#album_table_title{
+  width: 100%;
+  text-align: center;
 }
-#tabhead {
-  background: none;
+#album_footer{
+  width: 100%;
+  text-align: center;
+}
+div a{
+  text-decoration: none;
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: larger;
 }
-#tabfoot {
-  font-size: 15px;
-  color: #7a7f85;
-  margin-top: 0%;
+hr{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 60%;
+}
+h1{
+  margin-top: 2%;
+  font-size: 50px;
+}
+@media only screen and (min-width: 768px) {
+  .container{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  
 }
