@@ -276,10 +276,76 @@
         "year": 1979
     },
     {
+        "title": "Cluster One",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Coming Back to Life",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "A Great Day for Freedom",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "High Hopes",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Keep Talking",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Lost for Words",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Marooned",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Poles Apart",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Take It Back",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "Wearing the Inside Out",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
+        "title": "What Do You Want from Me",
+        "page": "https://open.spotify.com/album/7wzStEU2keGohEu8jpVMZW?si=9c3uR9MwScqg8P59ht0Glw",
+        "album": "The Division Bell",
+        "year": 1994
+    },
+    {
         "title": "",
         "page": "",
         "album": "",
-        "year": 1979
+        "year": 1994
     }
     ]
   }

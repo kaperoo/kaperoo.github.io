@@ -33,6 +33,7 @@ button{
   margin: auto;
 }
 .place{
+  box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
   display: none;
   padding: 5px;
   width: 60%;

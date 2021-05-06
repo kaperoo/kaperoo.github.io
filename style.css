@@ -110,3 +110,8 @@ footer {
   color: rgb(184, 184, 184);
   bottom: 0;
 }
+@media only screen and (max-width: 600px) {
+  nav{
+    display: none;
+  }
+}
