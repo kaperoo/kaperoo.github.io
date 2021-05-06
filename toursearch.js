@@ -39,9 +39,10 @@ function showPosition(position){
                 for(j=0;j<distance.length;j++){
                     if(distance[j]==distanceSorted[i]){
 
-                            $("#shows").append("<div class='place' id='place"+i+"'><span id='name'>" + data["places"][j]["name"] + ": </span>" + "<br><span id='loc'>" + data["places"][j]["place"].toUpperCase() + 
-                            " </span><br>"+ "<span id='date'>" + data["places"][j]["date"] + 
-                            " </span>" + "<span id='kms'>" + Math.round(distance[j]) + "km away from you.</span>" + "</div>");
+                            $("#shows").append("<div class='place' id='place"+i+"'><span id='name'>" + data["places"][j]["name"] + ": </span>" + 
+                            "<br><span id='loc'>" + data["places"][j]["place"].toUpperCase() + " </span><br>" + 
+                            "<span id='date'>" + data["places"][j]["date"] + " </span>" + 
+                            "<span id='kms'>" + Math.round(distance[j]) + "km away from you.</span>" + "</div>");
                         
                     }
                 }
@@ -73,3 +74,4 @@ function distanceInKm(lat,long,lat2,long2) {
 function deg2rad(deg) {
     return deg * (Math.PI/180)
 }
+

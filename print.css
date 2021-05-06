@@ -4,8 +4,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-nav, .backbtn, iframe{
-    display: none;
+nav, .backbtn, iframe, #showMore{
+    display: none !important;
 }
 td, td a, #darkside{
     box-shadow: none;

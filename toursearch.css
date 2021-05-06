@@ -42,12 +42,15 @@ button{
   margin-bottom: 10px;
   background-color: rgba(75, 75, 75, 0.603);
 }
+.place:hover{
+  background-color: rgba(0, 238, 255, 0.603);
+}
 #showMore{
   display: none;
   margin-bottom: 3%;
 }
 #shows{
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 10%;
   margin-right: 10%;
