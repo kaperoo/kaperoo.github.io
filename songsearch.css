@@ -9,13 +9,60 @@ body {
   margin-left: 10%;
   width: 15%;
 }
-#info {
-  color: white;
-  height: 100%;
-  width: 80%;
-  margin-top: 10px;
-  font-size: 30px;
+.song{
+  padding: 5px;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(75, 75, 75, 0.603);
+}
+#songTitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+#songAlbum{
+  font-size: 20px;
+  font-style: italic;
+}
+#songYear{
+  font-size: 15px;
+}
+.song:hover{
+  background-color: rgba(0, 238, 255, 0.603);
+}
+#ssong{
+  padding: 5px;
+  background-color:rgba(75, 75, 75, 0.603);
+  border-color: white;
+  width: 90%;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+}
+#songBtn{
+  margin-left: 10px;
+  height: 100%;
+  width: 10%;
+  padding: 5px;
+  background-color:rgba(75, 75, 75, 0.603);
+  color: white;
+  border-color: white;
+}
+#control{
+  display: flex;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#foundSongs{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+a{
+  text-decoration: none;
+  color: white;
 }

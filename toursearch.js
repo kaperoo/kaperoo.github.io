@@ -17,7 +17,7 @@ function showPosition(position){
     long = position.coords.longitude;
 
     fetch('./tours.json')
-    .then( res => res.json(),console.log(Error))
+    .then( res => res.json())
     .then(data => {
 
         var distance = [];
@@ -28,7 +28,6 @@ function showPosition(position){
 
         var distanceSorted = [...distance];
         distanceSorted.sort(function(a, b){return a - b});
-        console.log(distanceSorted);
 
         if(count>distance.length){
             count = distance.length;

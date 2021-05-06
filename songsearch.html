@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="songsearch.css">
     <link href="print.css" rel="stylesheet" type="text/css" media="print"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -31,11 +32,24 @@
               <a href="animals.html" id="anim"><p>Animals</p></a>
             </div>
         </div>
+        <div class="vl"></div>
+        <div class="dropdown">
+            <p>Other &#x25bc;</p>
+            <div class="dropdown-content">
+              <a href="songsearch.html">Find Song</a>
+              <a href="toursearch.html">Find Show</a>
+            </div>
+        </div>
     </nav>
 
-    <p id="info">Here users will be able to search for songs, but I will develop this part of a website in the next coursework :)</p>
+    <div id="control">
+        <input type="text" id="ssong" placeholder="Enter the song title">
+        <input type="button" id="songBtn" value="Find" onclick="findSong()">
+    </div>
+
+    <div id="foundSongs"></div>
 
     <footer>Kacper Roemer (sc20kr)</footer>
-    <script src="test.js"></script>
+    <script src="songsearch.js"></script>
 </body>
 </html>

@@ -1,0 +1,285 @@
+{
+    "songs":[{
+        "title": "Dogs",
+        "page": "animals.html#s2",
+        "album": "Animals",
+        "year": 1977
+    },
+    {
+        "title": "Pigs (Three Different Ones)",
+        "page": "animals.html#s3",
+        "album": "Animals",
+        "year": 1977
+    },
+    {
+        "title": "Pigs on the Wing (Part 1)",
+        "page": "animals.html#s1",
+        "album": "Animals",
+        "year": 1977
+    },
+    {
+        "title": "Pigs on the Wing (Part 2)",
+        "page": "animals.html#s5",
+        "album": "Animals",
+        "year": 1977
+    },
+    {
+        "title": "Sheep",
+        "page": "animals.html#s4",
+        "album": "Animals",
+        "year": 1977
+    },
+    {
+        "title": "Alan's Psychedelic Breakfast",
+        "page": "https://open.spotify.com/album/5c1ZTzT4oSkiiFS4wmEuOe?si=bxQOfih6RmeQHXN9sOrUjw",
+        "album": "Atom Heart Mother",
+        "year": 1970
+    },
+    {
+        "title": "Atom Heart Mother",
+        "page": "https://open.spotify.com/album/5c1ZTzT4oSkiiFS4wmEuOe?si=bxQOfih6RmeQHXN9sOrUjw",
+        "album": "Atom Heart Mother",
+        "year": 1970
+    },
+    {
+        "title": "Fat Old Sun",
+        "page": "https://open.spotify.com/album/5c1ZTzT4oSkiiFS4wmEuOe?si=bxQOfih6RmeQHXN9sOrUjw",
+        "album": "Atom Heart Mother",
+        "year": 1970
+    },
+    {
+        "title": "If",
+        "page": "https://open.spotify.com/album/5c1ZTzT4oSkiiFS4wmEuOe?si=bxQOfih6RmeQHXN9sOrUjw",
+        "album": "Atom Heart Mother",
+        "year": 1970
+    },
+    {
+        "title": "Summer '68",
+        "page": "https://open.spotify.com/album/5c1ZTzT4oSkiiFS4wmEuOe?si=bxQOfih6RmeQHXN9sOrUjw",
+        "album": "Atom Heart Mother",
+        "year": 1970
+    },
+    {
+        "title": "Any Colour You Like",
+        "page": "darkside.html",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Brain Damage",
+        "page": "darkside.html#s8",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Breathe",
+        "page": "darkside.html#s2",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Eclipse",
+        "page": "darkside.html#s9",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "The Great Gig in the Sky",
+        "page": "darkside.html#s5",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Money",
+        "page": "darkside.html#s6",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "On the Run",
+        "page": "darkside.html#s3",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Speak to Me",
+        "page": "darkside.html#s1",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Time",
+        "page": "darkside.html#s4",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "Us and Them",
+        "page": "darkside.html#s7",
+        "album": "The Dark Side of the Moon",
+        "year": 1973
+    },
+    {
+        "title": "In the Flesh?",
+        "page": "thewall.html#s1",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "The Thin Ice",
+        "page": "thewall.html#s2",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Another Brick in the Wall, Part 1",
+        "page": "thewall.html#s3",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "The Happiest Days of Our Lives",
+        "page": "thewall.html#s4",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Another Brick in the Wall, Part 2",
+        "page": "thewall.html#s5",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Mother",
+        "page": "thewall.html#s6",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Goodbye Blue Sky",
+        "page": "thewall.html#s7",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Empty Spaces",
+        "page": "thewall.html#s8",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Young Lust",
+        "page": "thewall.html#s9",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "One of My Turns",
+        "page": "thewall.html#s10",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Don't Leave Me Now",
+        "page": "thewall.html#s11",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Another Brick in the Wall, Part 3",
+        "page": "thewall.html#s12",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Goodbye Cruel World",
+        "page": "thewall.html#s13",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Hey You",
+        "page": "thewall.html#s14",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Is There Anybody Out There?",
+        "page": "thewall.html#s15",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Nobody Home",
+        "page": "thewall.html#s16",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Vera",
+        "page": "thewall.html#s17",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Bring the Boys Back Home",
+        "page": "thewall.html#s18",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Comfortably Numb",
+        "page": "thewall.html#s19",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "The Show Must Go On",
+        "page": "thewall.html#s20",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "In the Flesh",
+        "page": "thewall.html#s21",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Run Like Hell",
+        "page": "thewall.html#s22",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Waiting for the Worms",
+        "page": "thewall.html#s23",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Stop",
+        "page": "thewall.html#s24",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "The Trial",
+        "page": "thewall.html#s25",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "Outside the Wall",
+        "page": "thewall.html#s26",
+        "album": "The Wall",
+        "year": 1979
+    },
+    {
+        "title": "",
+        "page": "",
+        "album": "",
+        "year": 1979
+    }
+    ]
+  }
