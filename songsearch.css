@@ -6,7 +6,6 @@ body {
 .song{
   box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
   padding: 5px;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -30,11 +29,12 @@ body {
 #ssong{
   padding: 5px;
   background-color:rgba(75, 75, 75, 0.603);
-  border-color: white;
+  border: none;
   width: 85%;
   height: 30px;
   color: white;
   font-size: 20px;
+  box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
 }
 #songBtn{
   margin-left: 10px;
@@ -43,7 +43,8 @@ body {
   padding: 5px;
   background-color:rgba(75, 75, 75, 0.603);
   color: white;
-  border-color: white;
+  border: none;
+  box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
 }
 #control{
   display: flex;
@@ -60,4 +61,25 @@ body {
 a{
   text-decoration: none;
   color: white;
+}
+@media only screen and (min-width: 768px) {
+  .song{
+    width: 60%;
+  }
+  #guitar{
+    display: inline;
+    margin-right: 10%;
+    margin-left: auto;
+    float: right;
+    margin-top: -9%;
+    margin-bottom: -8%;
+    filter: invert(100%);
+    width: 30%;
+    transform: scaleX(-1) rotate(37deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #guitar{
+    display: none;
+  }
 }

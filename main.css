@@ -74,7 +74,21 @@ h1{
   .container{
     width: 80%;
   }
+  #logo {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
-  
+  #logo{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
 }

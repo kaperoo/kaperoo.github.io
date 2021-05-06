@@ -2,9 +2,11 @@
     filter: invert(100%);
     display: block;
     margin-left: auto;
+    width: 30%;
+    height: 30%;
     margin-right: auto;
 }
-nav, .backbtn, iframe, #showMore{
+nav, .backbtn, iframe, #showMore, #control{
     display: none !important;
 }
 td, td a, #darkside{
@@ -16,8 +18,9 @@ p,
 #tabhead,
 .description,
 .stitle,
-.atitle{
-    color: black;
+.atitle, h1,
+.song{
+    color: black !important;
 }
 blockquote{
     margin: auto;
@@ -30,4 +33,7 @@ blockquote{
 }
 #shows{
     color: black;
+}
+.grid-gallery div{
+    box-shadow: none;
 }

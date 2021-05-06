@@ -101,19 +101,20 @@ footer {
   bottom: 0;
 }
 @media only screen and (min-width: 768px) {
-  #logo {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
   .menu{
     display: none;
   }
+  #pinks {
+    display: inline-flex;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: auto;
+    float: right;
+    margin-bottom: 5px;
+
+  }
   #logomem {
+    display: inline-flex;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 10%;
