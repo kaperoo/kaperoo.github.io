@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Song search">
+	<meta name="keywords" content="Pink Floyd, Songs">
+	<meta name="author" content="Kacper Roemer, sc20kr">
+    <title>Tour search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toursearch.css">
+    <link href="print.css" rel="stylesheet" type="text/css" media="print"/>
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="./resources/Pink_Floyd_logo.svg" id="logomem" alt="Pink Floyd logo" >
+    </a>
+    
+    <!--Navigation Bar-->
+    <nav>
+        <a href="index.html"><p>Main Page</p></a>
+        <div class="vl"></div>
+        <a href="members.html"><p>Band Members</p></a>
+        <div class="vl"></div>
+        <div class="dropdown">
+            <p>Discography &#x25bc;</p>
+            <div class="dropdown-content">
+              <a href="darkside.html" id="dsotm"><p>Dark Side of the Moon</p></a>
+              <a href="thewall.html" id="twall"><p>The Wall</p></a>
+              <a href="animals.html" id="anim"><p>Animals</p></a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="findBtn">
+        <p id="info">Find the show by a Pink Floyd member closest to your location!</p>
+        <button onclick="findTour()">Find</button>
+    </div>
+
+    <div id="shows"></div>
+
+    <footer>Kacper Roemer (sc20kr)</footer>
+    <script src="toursearch.js"></script>
+</body>
+</html>

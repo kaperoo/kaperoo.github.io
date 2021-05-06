@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(rgba(111, 245, 234, 0.603) 0%, rgba(161, 205, 247, 0) 50vh);
+  background-color: #212529;
+  background-repeat: no-repeat;
+}
+#logomem {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  width: 15%;
+}
+#findBtn{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#info {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+button{
+  background-color: rgba(75, 75, 75, 0.603);
+  color: white;
+  border-color: white;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+.place{
+  padding: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(75, 75, 75, 0.603);
+}
+#shows{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#name{
+  font-size: 35px;
+  font-weight: bold;
+} 
+#loc{
+  font-style: italic;
+  font-size: 30px;
+}
+#date{
+  font-size: 15px;
+}
+#kms{
+  display: flex;
+  font-size: 15px;
+  float: right;
+}
