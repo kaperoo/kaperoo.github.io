@@ -1,5 +1,6 @@
 function findSong(){
-    fetch('./songs.json')
+    console.log("DEBUG");
+    fetch('songs.json')
     .then( res => res.json())
     .then(data => {
 

@@ -45,6 +45,7 @@ body {
   color: white;
   border: none;
   box-shadow: 5px 6px 8px 3px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 #control{
   display: flex;
