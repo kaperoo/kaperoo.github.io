@@ -11,7 +11,7 @@ function findSong(){
                     break;
                 }
                 if(data["songs"][i]["title"].toLowerCase().includes(string.toLowerCase())){
-                    $("#foundSongs").append("<a href='" + data["songs"][i]["page"] + "'><div class='song'><span id='songTitle'>" + data["songs"][i]["title"] + "</span><br>" + 
+                    $("#foundSongs").append("<div class='song'><a href='" + data["songs"][i]["page"] + "'><span id='songTitle'>" + data["songs"][i]["title"] + "</span><br>" + 
                      "<span id='songAlbum'>" + data["songs"][i]["album"] + "</span><br>" + "<span id='songYear'>" + data["songs"][i]["year"] + "</span>" + "</div></a>");
                 }
             }
