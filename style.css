@@ -174,8 +174,8 @@ footer {
   nav ul li {
     margin-top: 30px;
   }
-  a, li p {
-    font-size: 1.4rem;
+  nav ul li a, li p {
+    font-size: 1.2rem;
     text-decoration: none;
   }
   li p{
